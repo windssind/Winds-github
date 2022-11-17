@@ -1,15 +1,5 @@
 #include<stdio.h>
 void Quicksort(int arr[], int low, int high);
-int main()
-{
-    int arr[5] = { 7,9,4,3,2};
-    Quicksort(arr, 0, 4);
-    for (int i = 0; i < 5; i++)
-    {
-        printf("%d", arr[i]);
-    }
-
-}
 void Quicksort(int arr[], int low, int high)
 {
     if (low >= high)return;
